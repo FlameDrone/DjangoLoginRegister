@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <style type="text/css">
+            #Username{
+                position: absolute;
+                margin: auto;
+                padding: auto;
+                border: 1px solid #ccc;
+                right: 35%;
+                top: 6rem;
+                width: 30%;
+                height: 4rem;
+                border-radius: 5px;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            
+            #Password{
+                position: absolute;
+                margin: auto;
+                padding: auto;
+                top: 11rem;
+                border: 1px solid #ccc;
+                right: 35%;
+                width: 30%;
+                height: 4rem;
+                border-radius: 5px;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            
+            #Login{
+                transition-duration: 0.3s;
+                cursor: pointer;
+                border: 2px solid #4b4b4b;
+                background-color: #FFF;
+                position: absolute;
+                margin: auto;
+                top: 18rem;
+                right: 40%;
+                width: 20%;
+                height: 3rem;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            
+            #Login:hover{
+                background-color: #4b4b4b;
+                color: white;
+            }
+            
+            #Register{
+                transition-duration: 0.3s;
+                cursor: pointer;
+                border: 2px solid #4b4b4b;
+                background-color: #FFF;
+                position: absolute;
+                margin: auto;
+                top: 21.5rem;
+                right: 40%;
+                width: 20%;
+                height: 3rem;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            
+            #Register:hover{
+                background-color: #4b4b4b;
+                color: white;
+            }
+            
+            body {
+                background-color: rgba(243, 243, 243, 0.02);
+            }
+        </style>
+    </head>
+    <body >
+        {% block content %}
+        <p> Base </p>
+        {% endblock content %}
+    </body>
+</html>
